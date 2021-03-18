@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.475" tests="29" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/thogarit1/Desktop/RaFinalProject/target/test-classes:/Users/thogarit1/Desktop/RaFinalProject/target/classes:/Users/thogarit1/.m2/repository/io/rest-assured/rest-assured/4.3.1/rest-assured-4.3.1.jar:/Users/thogarit1/.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/thogarit1/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.3/groovy-xml-3.0.3.jar:/Users/thogarit1/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/thogarit1/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/thogarit1/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/thogarit1/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/thogarit1/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/thogarit1/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/thogarit1/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/thogarit1/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar:/Users/thogarit1/.m2/repository/org/codehaus/groovy/groovy-json/3.0.3/groovy-json-3.0.3.jar:/Users/thogarit1/.m2/repository/io/rest-assured/rest-assured-common/4.3.1/rest-assured-common-4.3.1.jar:/Users/thogarit1/.m2/repository/io/rest-assured/xml-path/4.3.1/xml-path-4.3.1.jar:/Users/thogarit1/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/thogarit1/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/thogarit1/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/thogarit1/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/thogarit1/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/thogarit1/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/thogarit1/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/thogarit1/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/thogarit1/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.jar:/Users/thogarit1/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar:/Users/thogarit1/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/thogarit1/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/thogarit1/Desktop/RaFinalProject/target/surefire/surefirebooter145403645200011892.jar /Users/thogarit1/Desktop/RaFinalProject/target/surefire 2021-03-18T15-56-06_922-jvmRun1 surefire4985476101795364140tmp surefire_06769345731138210426tmp"/>
+    <property name="surefire.test.class.path" value="/Users/thogarit1/Desktop/RaFinalProject/target/test-classes:/Users/thogarit1/Desktop/RaFinalProject/target/classes:/Users/thogarit1/.m2/repository/io/rest-assured/rest-assured/4.3.1/rest-assured-4.3.1.jar:/Users/thogarit1/.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/thogarit1/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.3/groovy-xml-3.0.3.jar:/Users/thogarit1/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/thogarit1/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/thogarit1/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/thogarit1/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/thogarit1/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/thogarit1/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/thogarit1/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/thogarit1/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar:/Users/thogarit1/.m2/repository/org/codehaus/groovy/groovy-json/3.0.3/groovy-json-3.0.3.jar:/Users/thogarit1/.m2/repository/io/rest-assured/rest-assured-common/4.3.1/rest-assured-common-4.3.1.jar:/Users/thogarit1/.m2/repository/io/rest-assured/xml-path/4.3.1/xml-path-4.3.1.jar:/Users/thogarit1/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/thogarit1/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/thogarit1/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/thogarit1/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/thogarit1/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/thogarit1/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/thogarit1/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/thogarit1/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/thogarit1/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.jar:/Users/thogarit1/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar:/Users/thogarit1/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/thogarit1/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/thogarit1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/thogarit1/Desktop/RaFinalProject"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/thogarit1/Desktop/RaFinalProject/target/surefire/surefirebooter145403645200011892.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="thogarit1"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/thogarit1/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/ks/glmkvxsn6m5cb1h49w5pz0g8b5yfkb/T/"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="/Users/thogarit1/Desktop/RaFinalProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/thogarit1/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="/Users/thogarit1/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="ATest_PING_ENDPOINT" classname="MiscTests" time="8.257"/>
+  <testcase name="Test_Create_User_Already_Exist" classname="UserTests" time="0.003"/>
+  <testcase name="BTest_HomePage_Response" classname="MiscTests" time="0.469"/>
+  <testcase name="Test_Create_User_Successful" classname="UserTests" time="0.096"/>
+  <testcase name="Test_Create_Article_Success" classname="ArticleTests" time="1.075"/>
+  <testcase name="Test_Login_User_Successful" classname="UserTests" time="1.219"/>
+  <testcase name="Test_Create_Post_Success" classname="PostTests" time="0.131"/>
+  <testcase name="Test_Delete_Article_Success" classname="ArticleTests" time="0.918"/>
+  <testcase name="Test_Get_All_Post_Success" classname="PostTests" time="0.29"/>
+  <testcase name="Test_Invalid_Token_Cant_Create_New_Articles" classname="ArticleTests" time="0.578"/>
+  <testcase name="Test_Create_Comment_Success" classname="CommentsTests" time="0.559"/>
+  <testcase name="Test_Get_Post_Success" classname="PostTests" time="0.281"/>
+  <testcase name="Test_Empty_Password_Cant_Get_All_Comments" classname="CommentsTests" time="0.27"/>
+  <testcase name="Test_Invalid_Path_Cant_Create_Post" classname="PostTests" time="0.276"/>
+  <testcase name="Test_Empty_User_Cant_Update_Comment" classname="CommentsTests" time="0.282"/>
+  <testcase name="Test_Invalid_Token_Cant_Create_New_Posts" classname="PostTests" time="0.171"/>
+  <testcase name="Test_Get_All_Comments_Success" classname="CommentsTests" time="0.38"/>
+  <testcase name="Test_Invalid_Token_Cant_Delete_Post" classname="PostTests" time="0.094"/>
+  <testcase name="Test_Get_One_Comment_Success" classname="CommentsTests" time="0.46"/>
+  <testcase name="Test_Invalid_Token_Cant_Get_All_Posts" classname="PostTests" time="0.46"/>
+  <testcase name="Test_Invalid_Token_Cant_Get_Post" classname="PostTests" time="0.429"/>
+  <testcase name="Test_Invalid_Password_Cant_Create_Comment" classname="CommentsTests" time="0.094"/>
+  <testcase name="Test_Invalid_Token_Cant_Update_Post" classname="PostTests" time="0.357"/>
+  <testcase name="Test_Invalid_User_Cant_Get_One_Comment" classname="CommentsTests" time="0.155"/>
+  <testcase name="Test_Update_Comment_Success" classname="CommentsTests" time="0.582"/>
+  <testcase name="Test_Update_Post_Success" classname="PostTests" time="0.404"/>
+  <testcase name="ZTest_Delete_Comment_Success" classname="CommentsTests" time="0.119"/>
+  <testcase name="ZTest_Empty_Credentials_Cant_Delete_Comment" classname="CommentsTests" time="0.56"/>
+  <testcase name="ZTest_Delete_Post_Success" classname="PostTests" time="0.933"/>
+</testsuite>
